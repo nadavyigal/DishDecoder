@@ -1,0 +1,55 @@
+{
+  "pasta": {
+    "title": "Classic Italian Pasta",
+    "imageUrl": "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg",
+    "ingredients": [
+      { "name": "Pasta", "quantity": "1", "unit": "pound" },
+      { "name": "Olive Oil", "quantity": "1/4", "unit": "cup" },
+      { "name": "Garlic", "quantity": "4", "unit": "cloves" },
+      { "name": "Tomatoes", "quantity": "4", "unit": "large" },
+      { "name": "Basil", "quantity": "1/2", "unit": "cup" },
+      { "name": "Salt", "quantity": "1", "unit": "teaspoon" },
+      { "name": "Black Pepper", "quantity": "1/2", "unit": "teaspoon" }
+    ],
+    "steps": [
+      { "id": 1, "instruction": "Bring a large pot of salted water to boil" },
+      { "id": 2, "instruction": "Cook pasta according to package instructions" },
+      { "id": 3, "instruction": "Heat olive oil in a large pan over medium heat" },
+      { "id": 4, "instruction": "Add minced garlic and cook until fragrant" },
+      { "id": 5, "instruction": "Add diced tomatoes and simmer for 15 minutes" },
+      { "id": 6, "instruction": "Season with salt and pepper" },
+      { "id": 7, "instruction": "Toss pasta with sauce and fresh basil" }
+    ],
+    "prepTime": 15,
+    "cookTime": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "cuisine": "Italian",
+    "keywords": ["pasta", "spaghetti", "noodles", "italian"]
+  },
+  "pizza": {
+    "title": "Homemade Margherita Pizza",
+    "imageUrl": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg",
+    "ingredients": [
+      { "name": "Pizza Dough", "quantity": "1", "unit": "pound" },
+      { "name": "Tomato Sauce", "quantity": "1", "unit": "cup" },
+      { "name": "Mozzarella", "quantity": "8", "unit": "ounces" },
+      { "name": "Fresh Basil", "quantity": "1", "unit": "handful" },
+      { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" }
+    ],
+    "steps": [
+      { "id": 1, "instruction": "Preheat oven to 450°F with pizza stone inside" },
+      { "id": 2, "instruction": "Roll out pizza dough on floured surface" },
+      { "id": 3, "instruction": "Spread tomato sauce evenly" },
+      { "id": 4, "instruction": "Add torn mozzarella pieces" },
+      { "id": 5, "instruction": "Bake for 12-15 minutes until crust is golden" },
+      { "id": 6, "instruction": "Top with fresh basil and drizzle with olive oil" }
+    ],
+    "prepTime": 20,
+    "cookTime": 15,
+    "servings": 4,
+    "difficulty": "medium",
+    "cuisine": "Italian",
+    "keywords": ["pizza", "flatbread", "margherita"]
+  }
+}

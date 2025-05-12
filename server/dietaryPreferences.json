@@ -1,0 +1,115 @@
+{
+  "dietaryTypes": {
+    "vegetarian": {
+      "name": "Vegetarian",
+      "description": "No meat, poultry, or seafood",
+      "excludedIngredients": ["meat", "chicken", "beef", "pork", "fish", "seafood", "shellfish", "bacon", "ham", "turkey"],
+      "substitutions": {
+        "meat": ["tofu", "tempeh", "seitan"],
+        "chicken": ["tofu", "chickpeas", "jackfruit"],
+        "beef": ["mushrooms", "lentils", "plant-based beef"],
+        "pork": ["jackfruit", "tempeh", "plant-based pork"],
+        "fish": ["tofu", "heart of palm", "plant-based fish"],
+        "seafood": ["hearts of palm", "artichoke hearts", "king oyster mushrooms"],
+        "shellfish": ["oyster mushrooms", "chickpeas", "artichoke hearts"],
+        "bacon": ["coconut bacon", "tempeh bacon", "smoked paprika"],
+        "ham": ["smoked tofu", "tempeh", "smoked salt"],
+        "turkey": ["seitan", "tofu", "lentils"]
+      }
+    },
+    "vegan": {
+      "name": "Vegan",
+      "description": "No animal products, including dairy, eggs, and honey",
+      "excludedIngredients": ["meat", "chicken", "beef", "pork", "fish", "seafood", "shellfish", "bacon", "ham", "turkey", "egg", "milk", "cheese", "butter", "cream", "yogurt", "honey"],
+      "substitutions": {
+        "meat": ["tofu", "tempeh", "seitan"],
+        "chicken": ["tofu", "chickpeas", "jackfruit"],
+        "beef": ["mushrooms", "lentils", "plant-based beef"],
+        "pork": ["jackfruit", "tempeh", "plant-based pork"],
+        "fish": ["tofu", "heart of palm", "plant-based fish"],
+        "seafood": ["hearts of palm", "artichoke hearts", "king oyster mushrooms"],
+        "shellfish": ["oyster mushrooms", "chickpeas", "artichoke hearts"],
+        "bacon": ["coconut bacon", "tempeh bacon", "smoked paprika"],
+        "ham": ["smoked tofu", "tempeh", "smoked salt"],
+        "turkey": ["seitan", "tofu", "lentils"],
+        "egg": ["flax egg", "chia egg", "applesauce"],
+        "milk": ["soy milk", "almond milk", "oat milk"],
+        "cheese": ["nutritional yeast", "vegan cheese", "cashew cheese"],
+        "butter": ["vegan butter", "coconut oil", "olive oil"],
+        "cream": ["coconut cream", "cashew cream", "silken tofu"],
+        "yogurt": ["coconut yogurt", "soy yogurt", "almond yogurt"],
+        "honey": ["maple syrup", "agave nectar", "date syrup"]
+      }
+    },
+    "gluten-free": {
+      "name": "Gluten-Free",
+      "description": "No wheat, barley, rye, or other gluten-containing ingredients",
+      "excludedIngredients": ["wheat", "flour", "bread", "pasta", "seitan", "rye", "barley", "malt", "couscous", "bulgur", "soy sauce"],
+      "substitutions": {
+        "wheat": ["rice", "corn", "quinoa"],
+        "flour": ["almond flour", "rice flour", "gluten-free flour blend"],
+        "bread": ["gluten-free bread", "corn tortillas", "rice cakes"],
+        "pasta": ["rice noodles", "gluten-free pasta", "zucchini noodles"],
+        "seitan": ["tofu", "tempeh", "chickpeas"],
+        "rye": ["brown rice", "buckwheat", "millet"],
+        "barley": ["quinoa", "rice", "millet"],
+        "malt": ["molasses", "honey", "coconut sugar"],
+        "couscous": ["quinoa", "rice", "cauliflower rice"],
+        "bulgur": ["quinoa", "millet", "buckwheat groats"],
+        "soy sauce": ["tamari", "coconut aminos", "liquid aminos"]
+      }
+    },
+    "dairy-free": {
+      "name": "Dairy-Free",
+      "description": "No milk, cheese, yogurt, butter, or other dairy products",
+      "excludedIngredients": ["milk", "cheese", "butter", "cream", "yogurt", "ice cream", "sour cream", "whey"],
+      "substitutions": {
+        "milk": ["almond milk", "oat milk", "coconut milk"],
+        "cheese": ["nutritional yeast", "vegan cheese", "cashew cheese"],
+        "butter": ["vegan butter", "coconut oil", "olive oil"],
+        "cream": ["coconut cream", "cashew cream", "silken tofu"],
+        "yogurt": ["coconut yogurt", "almond yogurt", "cashew yogurt"],
+        "ice cream": ["coconut ice cream", "soy ice cream", "cashew ice cream"],
+        "sour cream": ["coconut yogurt", "cashew sour cream", "plant-based sour cream"],
+        "whey": ["pea protein", "hemp protein", "rice protein"]
+      }
+    },
+    "keto": {
+      "name": "Keto",
+      "description": "Very low carbohydrate, high fat diet",
+      "excludedIngredients": ["sugar", "honey", "syrup", "flour", "rice", "pasta", "potatoes", "corn", "beans", "bananas", "bread"],
+      "substitutions": {
+        "sugar": ["stevia", "erythritol", "monk fruit sweetener"],
+        "honey": ["stevia", "erythritol", "monk fruit sweetener"],
+        "syrup": ["sugar-free syrup", "monk fruit syrup", "keto maple syrup"],
+        "flour": ["almond flour", "coconut flour", "flaxseed meal"],
+        "rice": ["cauliflower rice", "shirataki rice", "shredded cabbage"],
+        "pasta": ["zucchini noodles", "shirataki noodles", "spaghetti squash"],
+        "potatoes": ["cauliflower", "turnips", "radishes"],
+        "corn": ["bell peppers", "zucchini", "green beans"],
+        "beans": ["edamame", "green beans", "mushrooms"],
+        "bananas": ["avocado", "berries", "macadamia nuts"],
+        "bread": ["cloud bread", "almond flour bread", "flaxseed bread"]
+      }
+    },
+    "paleo": {
+      "name": "Paleo",
+      "description": "Based on foods presumed to be available to ancient humans, excluding grains, legumes, dairy, processed foods",
+      "excludedIngredients": ["grains", "wheat", "rice", "corn", "barley", "oats", "beans", "lentils", "peanuts", "dairy", "sugar", "processed foods"],
+      "substitutions": {
+        "grains": ["cauliflower rice", "sweet potatoes", "butternut squash"],
+        "wheat": ["almond flour", "coconut flour", "cassava flour"],
+        "rice": ["cauliflower rice", "broccoli rice", "sweet potato rice"],
+        "corn": ["bell peppers", "zucchini", "carrots"],
+        "barley": ["mushrooms", "sweet potatoes", "turnips"],
+        "oats": ["chia pudding", "flaxseed meal", "almond meal"],
+        "beans": ["mushrooms", "eggplant", "zucchini"],
+        "lentils": ["ground meat", "mushrooms", "eggplant"],
+        "peanuts": ["almonds", "cashews", "macadamia nuts"],
+        "dairy": ["coconut milk", "almond milk", "cashew cream"],
+        "sugar": ["honey", "maple syrup", "dates"],
+        "processed foods": ["whole foods", "homemade versions", "fresh ingredients"]
+      }
+    }
+  }
+} 

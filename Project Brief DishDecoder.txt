@@ -1,0 +1,47 @@
+Project Brief: DishDecoder
+Introduction
+Imagine spotting a delicious dish—maybe it's a photo from a friend, a restaurant menu, or a TV show—and wishing you could whip it up yourself. For many, that dream stalls out because cooking feels too complicated or intimidating. DishDecoder changes that. Our app solves the biggest hurdle for users by letting them upload a picture of any dish and instantly get a simple, step-by-step guide to make it. With DishDecoder, tasty food becomes something anyone can create, no culinary skills required.
+Target Audience
+DishDecoder is for everyone who loves food but doesn't always know where to start:
+
+Busy folks craving quick, impressive meals.
+Beginners ready to move beyond basic recipes.
+Food lovers eager to recreate dishes they've seen.
+Anyone who wants cooking to be less stressful and more fun.
+
+The Vibe Food Approach
+DishDecoder isn't just about recipes—it's about "vibe food," where cooking feels effortless, creative, and downright enjoyable. Here's how we bring that to life:
+
+Easy Peasy: Complex dishes are broken into bite-sized steps anyone can follow.
+Good Vibes Only: A gorgeous, friendly app design that makes you want to cook.
+Your Way: Customize recipes to match your tastes or what's in your pantry.
+Togetherness: Share your wins and connect with others who love food too.
+
+This isn't about perfection—it's about making tasty food, your way, with a smile.
+Key Features
+Here's what makes DishDecoder a game-changer:
+
+Photo Magic: Snap a pic, and our tech IDs the dish and hands you a recipe.
+Simple Steps: Clear, visual guides (think pics or quick vids) walk you through it.
+Make It Yours: Tweak recipes for diets or ingredients you've got.
+Foodie Friends: Share your dishes, swap tips, and join cooking challenges.
+Fresh Ideas: New recipes and fun updates keep things exciting.
+
+Design Philosophy
+Our app feels like your favorite kitchen—cozy, welcoming, and easy to navigate:
+
+Warm Tones: Think soft amber and sage for that homey feel.
+Smooth Moves: Fun animations (like a bubbling pot) add a playful touch.
+Pretty & Practical: Stunning food pics and clean layouts make every step a breeze.
+
+It's less about techy bells and whistles and more about a vibe that says, "You've got this."
+Technical Overview
+Behind the scenes, DishDecoder keeps it simple for users:
+
+Smart Imaging: Top-notch OpenAI Vision API to recognize dishes from your photos.
+Mobile Ready: Works like a charm on iOS and Android.
+Cloud Power: Handles recipes, pics, and community features effortlessly.
+
+The tech's there, but it's all about making your experience smooth and stress-free.
+Call to Action
+Let's make cooking something anyone can do—and love doing. DishDecoder is here to turn food pics into tasty reality for everyone. Ready to bring the vibe to your kitchen?
